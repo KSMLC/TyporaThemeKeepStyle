@@ -6,14 +6,12 @@ author: typora.io
 typora-root-url: ../../
 ---
 
-- Fork [this site](https://github.com/typora/typora-theme-gallery) on Github
+- Fork [this site](https://github.com/typora/typora-theme-gallery) on GitHub
 - Create a new post in the `_posts` directory and fill out the relevant YAML fields
 - Make a 250x200 (or 500x400) thumbnail and drop it in the `thumbnails` directory. List its filename in the post's markdown file.
 - Test it out (also test your theme), then push your changes up and open a pull request.
 
 ### Notes
-
-- We recommend you to go through all html files inside the [theme toolkit](https://github.com/typora/typora-theme-toolkit), so that users could use it on OS platforms different from yours.
 
 - If your theme does not include the styles for Typora on specific platform, please put a notice in post, for example:
 
