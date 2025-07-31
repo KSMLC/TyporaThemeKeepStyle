@@ -37,6 +37,8 @@ typora-copy-images-to: ../../media/theme/vlook-geek
 
 ![vlook-theme-preview-05](/media/theme/vlook-geek/preview-05.png)
 
+![vlook-theme-preview-05](/media/theme/vlook-geek/preview-06.png)
+
 # Custom Theme
 
 More personalized themes can also be flexibly customized according to your needs.

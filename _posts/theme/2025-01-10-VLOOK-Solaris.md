@@ -37,6 +37,8 @@ typora-copy-images-to: ../../media/theme/vlook-solaris
 
 ![vlook-theme-preview-05](/media/theme/vlook-solaris/preview-05.png)
 
+![vlook-theme-preview-05](/media/theme/vlook-solaris/preview-06.png)
+
 # Custom Theme
 
 More personalized themes can also be flexibly customized according to your needs.

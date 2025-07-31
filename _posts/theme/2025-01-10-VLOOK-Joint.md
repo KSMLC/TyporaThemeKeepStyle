@@ -37,6 +37,8 @@ typora-copy-images-to: ../../media/theme/vlook-joint
 
 ![vlook-theme-preview-05](/media/theme/vlook-joint/preview-05.png)
 
+![vlook-theme-preview-05](/media/theme/vlook-joint/preview-06.png)
+
 # Custom Theme
 
 More personalized themes can also be flexibly customized according to your needs.
