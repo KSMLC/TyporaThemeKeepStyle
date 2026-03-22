@@ -2,10 +2,10 @@
 layout: theme
 title: Everforest
 category: theme
-homepage: https://github.com/EthanBao27/everforest-typora
-download: https://github.com/EthanBao27/everforest-typora/tree/main/themes
+homepage: https://github.com/YuxBao/everforest-typora
+download: https://github.com/YuxBao/everforest-typora/tree/main/themes
 built-in: false
-author: Ethan Bao
+author: Yux Bao
 thumbnail: everforest.png
 typora-root-url: ../../
 typora-copy-images-to: ../../media/theme/everforest
@@ -33,7 +33,7 @@ A clean, nature-inspired theme for Typora, based on [Everforest](https://everfor
 ## Installation
 
 1. **Download the theme files**
-   [Everforest Theme for Typora – Download](https://github.com/EthanBao27/everforest-typora/tree/main/themes)
+   [Everforest Theme for Typora – Download](https://github.com/YuxBao/everforest-typora/tree/main/themes)
 
 2. **Locate Typora’s theme folder**
 
@@ -49,8 +49,8 @@ A clean, nature-inspired theme for Typora, based on [Everforest](https://everfor
 
 ## Author
 
-**Ethan Bao**
-GitHub: [EthanBao27](https://github.com/EthanBao27)
+**Yux Bao**
+GitHub: [YuxBao](https://github.com/YuxBao)
 
 ## Special Thanks
 
@@ -58,5 +58,5 @@ GitHub: [EthanBao27](https://github.com/EthanBao27)
 
 ## Links
 
-- **Homepage:** [Everforest Typora Theme Repository](https://github.com/EthanBao27/everforest-typora)
-- **Download:** [Everforest Typora Theme – themes folder](https://github.com/EthanBao27/everforest-typora/tree/main/themes)
+- **Homepage:** [Everforest Typora Theme Repository](https://github.com/YuxBao/everforest-typora)
+- **Download:** [Everforest Typora Theme – themes folder](https://github.com/YuxBao/everforest-typora/tree/main/themes)
