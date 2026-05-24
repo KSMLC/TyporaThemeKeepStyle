@@ -2,6 +2,7 @@
 layout: theme
 title: Claude-Like Theme
 category: theme
+date: 2026-04-23
 homepage: https://github.com/Muyiiiii/Typora_Claude-Like_Theme
 download: https://github.com/Muyiiiii/Typora_Claude-Like_Theme/releases/tag/Stable
 built-in: false
@@ -16,9 +17,11 @@ typora-root-url: ../../
 
 ![light](../../media/theme/claude/light.png)
 
+![grey](../../media/theme/claude/grey.png)
+
 ![dark](../../media/theme/claude/dark.png)
 
-一个以 Claude-like 阅读体验为灵感、并针对中文写作重新打磨的 Typora 主题。
+一个以 Claude-like 阅读体验为灵感、并针对中文写作重新打磨的 Typora 主题。现提供浅色、Morandi 灰蓝、深色三个版本。
 
 它不是简单地把网页样式搬进 Typora，而是保留了 Claude-like 那种安静、克制、长文友好的阅读气质，同时针对中文内容、表格、代码块、导出效果做了重新调校。
 
@@ -27,7 +30,7 @@ typora-root-url: ../../
 - 让长文阅读更稳定，不抢内容本身的注意力。
 - 让中文标题、正文、强调文本之间的层级更清楚。
 - 让技术文档里最常见的表格、代码块、行内代码保持统一风格。
-- 同时提供浅色与深色两个版本，减少切换场景时的割裂感。
+- 同时提供浅色、Morandi 灰蓝、深色三个版本，减少切换场景时的割裂感。
 
 ## 主题特点
 
@@ -86,21 +89,22 @@ typora-root-url: ../../
 
 这样既不会像 IDE 那样过度鲜艳，也不会因为过于克制而失去可读性。
 
-### 5. 明暗双主题同步维护
+### 5. 三套主题同步维护
 
 项目包含：
 
-- `claude-like.css`
-- `claude-like-dark.css`
+- `claude-like.css`：浅色
+- `claude-like-grey.css`：Morandi 灰蓝
+- `claude-like-dark.css`：深色
 
-两套主题不是简单反色，而是在以下部分分别做了独立调整：
+三套主题不是简单的亮度反转或线性过渡，而是在以下部分分别做了独立调整：
 
 - 背景与文本对比
 - 表格边框强度
 - 代码块背景与高亮色
 - 侧栏 / 菜单 / 编辑界面过渡
 
-因此浅色和深色模式下都能保持一致的阅读逻辑。
+Grey 版采用莫兰迪风格的低饱和灰蓝底 + 暖陶土 accent 的经典冷暖对比，介于浅色的明快和深色的沉稳之间，适合长时间阅读但又不想掉到纯黑背景的场景。三套主题都沿用同一套版心、字体与代码高亮逻辑，切换时不会产生阅读断层。
 
 ## 适用场景
 
@@ -121,16 +125,19 @@ typora-root-url: ../../
 3. 将以下文件复制到主题目录中：
 
    - `claude-like.css`
+   - `claude-like-grey.css`
    - `claude-like-dark.css`
 4. 重启 Typora。
 5. 在主题菜单中选择：
 
    - `Claude-like`
+   - `Claude-like Grey`
    - `Claude-like Dark`
 
 ## 文件说明
 
 - `claude-like.css`：浅色主题
+- `claude-like-grey.css`：Morandi 灰蓝主题
 - `claude-like-dark.css`：深色主题
 
 ## 已优化的细节
@@ -145,7 +152,6 @@ typora-root-url: ../../
 
 ## 后续可继续扩展的方向
 
-- 增加专用缩略图与预览图
 - 补充更多导出场景截图
 - 为引用块、数学公式、任务列表继续细化细节
 - 增加更偏论文风格或更偏博客风格的变体
@@ -162,7 +168,7 @@ Claude-like Theme 的核心不是“看起来像某个网页”，而是把那�
 
 # Claude-like Theme
 
-A Typora theme inspired by a Claude-like reading experience, refined for Chinese writing and technical Markdown workflows.
+A Typora theme inspired by a Claude-like reading experience, refined for Chinese writing and technical Markdown workflows. It ships in three variants: light, a Morandi gray-blue grey, and dark.
 
 It is not a direct clone of a webpage. Instead, it keeps the calm, restrained, long-form reading atmosphere associated with a Claude-like style, while reworking typography, tables, code blocks, and export behavior for practical Markdown use.
 
@@ -171,7 +177,7 @@ It is not a direct clone of a webpage. Instead, it keeps the calm, restrained, l
 - Make long-form reading feel stable and low-noise.
 - Improve hierarchy between headings, body text, and emphasis in Chinese documents.
 - Keep tables, fenced code blocks, and inline code visually consistent.
-- Maintain a coherent experience across both light and dark modes.
+- Maintain a coherent experience across light, grey (Morandi gray-blue), and dark modes.
 
 ## Highlights
 
@@ -230,21 +236,22 @@ The current highlighting scheme emphasizes:
 
 This keeps code readable without becoming as visually aggressive as a full IDE theme.
 
-### 5. Light and dark themes maintained together
+### 5. Three themes maintained together
 
 The project currently includes:
 
-- `claude-like.css`
-- `claude-like-dark.css`
+- `claude-like.css` — light
+- `claude-like-grey.css` — Morandi gray-blue
+- `claude-like-dark.css` — dark
 
-The dark version is not a simple color inversion. Both themes are tuned independently in areas such as:
+The three variants are not mechanical brightness interpolations of each other. Each is tuned independently in areas such as:
 
 - background and text contrast
 - table border intensity
 - code block background and syntax colors
 - sidebar and Typora UI transitions
 
-As a result, both modes follow the same reading logic.
+The grey variant uses a Morandi-inspired low-saturation gray-blue background paired with a warm terracotta accent — the classic cool-ground / warm-highlight pairing. It sits between the airiness of the light theme and the weight of the dark one, and is useful when you want extended reading without dropping all the way to near-black. All three themes share the same layout, typography, and syntax-highlight logic, so switching between them never breaks reading rhythm.
 
 ## Best Use Cases
 
@@ -265,16 +272,19 @@ If you prefer highly decorative layouts or very dramatic heading styles, this th
 3. Copy the following files into the theme folder:
 
    - `claude-like.css`
+   - `claude-like-grey.css`
    - `claude-like-dark.css`
 4. Restart Typora.
 5. Choose one of the following from the Theme menu:
 
    - `Claude-like`
+   - `Claude-like Grey`
    - `Claude-like Dark`
 
 ## Files
 
 - `claude-like.css`: light theme
+- `claude-like-grey.css`: Morandi gray-blue theme
 - `claude-like-dark.css`: dark theme
 
 ## Refined Details
@@ -289,7 +299,6 @@ If you prefer highly decorative layouts or very dramatic heading styles, this th
 
 ## Possible Future Extensions
 
-- dedicated thumbnails and preview images
 - more export screenshots
 - further refinement for blockquotes, math, and task lists
 - additional variants for academic or blog-oriented writing
